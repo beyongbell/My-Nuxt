@@ -6,7 +6,7 @@
       v-for="mountain in mountains"
       v-else
       :key="mountain.title"
-      class="mb-4 flex flex-col text-left md:flex"
+      class="mb-4 flex felx-col text-left md:flex"
     >
       <div class="md:flex-shrink-0">
         <img
@@ -45,3 +45,9 @@ export default {
   },
 }
 </script>
+
+<style lang="postcss">
+img {
+  height: 120px;
+}
+</style>

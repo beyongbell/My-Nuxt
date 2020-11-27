@@ -5,9 +5,9 @@
       class="text-sm bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full mb-4"
       @click="showMountains"
     >
-      Refresh
+      Show Mountains
     </button>
-    <LazyProductCard v-if="show" />
+    <LazyShopProductCard v-if="show" />
   </div>
 </template>
 
@@ -25,9 +25,3 @@ export default {
   },
 }
 </script>
-
-<style lang="postcss">
-img {
-  height: 120px;
-}
-</style>
